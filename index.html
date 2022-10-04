@@ -13,41 +13,75 @@
 
         <header>
 
-            <div class="logo">
-                LOGO
+            <div class="logo-div">
+                <img class="logo" src="https://i.im.ge/2022/10/05/1kKr2p.301722150-580000237160344-7998965667007516519-n-jpg-nc-cat111ccb1-7-nc-sid09cbfe-nc-ohcosDIGK5JsJgAX9fibMEtnikTKAPOqVqyhRI2U-nc-htscontent-fgig4-1.jpg" alt="">
             </div>
 
-            <div class="section-one section-header">
-                Por que Escola Olaria?
+            <div class="menu-icon-div">
+                <img src="menu.png" class="menu-icon">
             </div>
 
-            <div class="section-two section-header">
-                Metodologia Olariense
-            </div>
+            <div class="menu-content">
 
-            <div class="section-three section-header">
-                Ensino
-            </div>
+                <div class="section-one section-header">
+                    Por que Escola Olaria?
+                </div>
+    
+                <div class="section-two section-header">
+                    Metodologia Olariense
+                </div>
+    
+                <div class="section-three section-header">
+                    Ensino
+                </div>
+    
+                <div class="section-four section-header">
+                    Escolas
+                </div>
+    
+                <div class="visit">
+                    <button class="visit-button">
+                        Agende uma visita
+                    </button>
+                </div>
 
-            <div class="section-four section-header">
-                Escolas
-            </div>
-
-            <div class="visit">
-                <button class="visit-button">
-                    Agende uma visita
-                </button>
             </div>
 
         </header>
 
+        <div class="menu-modal">
+
+            <div class="section-one section-modal">
+                Por que Escola Olaria?
+            </div>
+
+            <div class="section-two section-modal">
+                Metodologia Olariense
+            </div>
+
+            <div class="section-three section-modal">
+                Ensino
+            </div>
+
+            <div class="section-four section-modal">
+                Escolas
+            </div>
+
+            <div class="visit-modal">
+                <button class="visit-button-modal">
+                    Agende uma visita
+                </button>
+            </div>
+
+        </div>
+
         <div class="carousel">
             
-            <img class="img-carousel" src="criança-estudando.jpg" alt="criança-pequena-estudando-lendo">
+            <img id="img-carousel" class="img-carousel" src="https://i.im.ge/2022/10/04/1kP9t4.crianca-estudando.jpg">
 
             <div class="carousel-continent">
 
-                <p class="text-carousel">Aprender sempre!</p>
+                <p id="txt-carousel" class="text-carousel">Aprendizado e diversão!</p>
                 
                 <div class="button-carousel">
                     
@@ -59,16 +93,73 @@
 
                 <div class="button-bottom-carousel">
 
-                    <button class="navigate-button-carousel"> < </button>
+                    <button class="navigate-button-carousel" onclick="changeCarousel(1)"> < </button>
 
-                    <button class="navigate-button-carousel"> > </button>
+                    <button class="navigate-button-carousel" onclick="changeCarousel(2)"> > </button>
 
                 </div>
                 
             </div>
 
         </div>
+
+        <div class="section">
+
+            <div class="card-teaching-level-carousel">
+
+                <div class="card-teaching-level">
+
+                    <div class="card-teaching-level-title-div">
+
+                        <p class="card-teaching-level-title">
+
+                            Educação infantil
+
+                        </p>
+
+                    </div>
+                    
+                    <div class="card-teaching-level-img-div">
+                    
+                        <img class="card-teaching-level-img" src="https://i.im.ge/2022/10/05/1kvXTX.boy-4241717-1920.jpg" alt="">
+                    
+                    </div>
+                
+                </div>
+                
+            </div>
+
+        </div>
+
+        <div class="section">
+
+            <div class="title-section-div">
+
+                <p class="title-section">Excelência acadêmica</p>
+
+                <p class="text-section">Objetivos do mundo contemporâneo e o nosso caminho para a excelência acadêmica por meio de uma pauta fundamentada nos seguintes eixos:</p>
+
+            </div>
+
+            <div class="section-card-content-div">
+
+                <div class="section-card-content">
+
+                    <img src="https://i.im.ge/2022/10/04/1kPwOq.crianca-no-computador.jpg" alt="" class="section-card-content-img">
+
+                    <p class="section-card-content-title"></p>
+                    
+                    <p class="section-card-content-text"></p>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </div>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
