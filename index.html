@@ -9,7 +9,7 @@
 </head>
 <body>
     
-    <div class="page">
+    <div id="page" class="page">
 
         <header>
 
@@ -18,7 +18,7 @@
             </div>
 
             <div class="menu-icon-div">
-                <img src="menu.png" class="menu-icon">
+                <img onclick="toggleModal()" src="menu.png" class="menu-icon">
             </div>
 
             <div class="menu-content">
@@ -49,7 +49,7 @@
 
         </header>
 
-        <div class="menu-modal">
+        <div id="modal" class="menu-modal">
 
             <div class="section-one section-modal">
                 Por que Escola Olaria?
@@ -81,13 +81,13 @@
 
             <div class="carousel-continent">
 
-                <p id="txt-carousel" class="text-carousel">Aprendizado e diversão!</p>
+                <p id="txt-carousel" class="text-carousel">Aprendizagem e diversão!</p>
                 
                 <div class="button-carousel">
                     
-                    <button class="know-more">Saiba mais</button>
+                    <button class="know-more" onclick="goTo(1)">Saiba mais</button>
 
-                    <button class="know-school">Conheça a Escola Olaria</button>
+                    <button class="know-school" onclick="goTo(2)">Conheça a Escola Olaria</button>
                     
                 </div>
 
@@ -105,27 +105,9 @@
 
         <div class="section">
 
-            <div class="card-teaching-level-carousel">
+            <div id="card-teaching-level-carousel" class="card-teaching-level-carousel">
 
-                <div class="card-teaching-level">
-
-                    <div class="card-teaching-level-title-div">
-
-                        <p class="card-teaching-level-title">
-
-                            Educação infantil
-
-                        </p>
-
-                    </div>
-                    
-                    <div class="card-teaching-level-img-div">
-                    
-                        <img class="card-teaching-level-img" src="https://i.im.ge/2022/10/05/1kvXTX.boy-4241717-1920.jpg" alt="">
-                    
-                    </div>
-                
-                </div>
+              
                 
             </div>
 
@@ -145,11 +127,33 @@
 
                 <div class="section-card-content">
 
-                    <img src="https://i.im.ge/2022/10/04/1kPwOq.crianca-no-computador.jpg" alt="" class="section-card-content-img">
+                    <div class="section-card-content-img-div">
+                        
+                        <img src="https://i.im.ge/2022/10/04/1kPwOq.crianca-no-computador.jpg" alt="" class="section-card-content-img">
 
-                    <p class="section-card-content-title"></p>
+                    </div>
+
+                    <p class="section-card-content-title">PENSAMENTO CRÍTICO</p>
                     
-                    <p class="section-card-content-text"></p>
+                    <p class="section-card-content-text">As novas tecnologias têm provocado automação de vários processos, e apenas nós podemos pensar sobre quais são as melhores soluções. Na Escola Olariense utilizamos o aprendizado investigativo estimulando a autonomia crítica.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="section">
+
+            <div class="adress-div">
+
+                <div class="adress-intern-div">
+
+                    <p class="title-adress-intern-div">Nosso endereço:</p>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4372.504732678618!2d-43.26952101739696!3d-22.846016581435062!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xddefc2961c2af8a9!2sJardim%20Escola%20Papai%20do%20C%C3%A9u!5e0!3m2!1sen!2sbr!4v1664935750327!5m2!1sen!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                    <p class="adress">R. Teotônio de Brito, 361 - Olaria, Rio de Janeiro - RJ, 21070-680</p>
 
                 </div>
 
@@ -160,6 +164,7 @@
     </div>
 
     <script src="script.js"></script>
+    <script src="cards-carousel-teaching-level.js"></script>
 
 </body>
 </html>
