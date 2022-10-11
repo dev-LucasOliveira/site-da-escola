@@ -94,7 +94,7 @@ header {
 
 .visit-modal {
     border: none;
-    width: 45vw;
+    width: 47vw;
     height: 10vh;
     display: flex;
     justify-content: center;
@@ -102,14 +102,14 @@ header {
 }
 
 .visit-button-modal {
-    width: 40vw;
+    width: 44vw;
     height: 8vh;
     border: none;
     border-radius: 30px;
     background: linear-gradient(to right, #051831, #082349, #092f64, #0D428C);
     align-items: center;
     justify-content: center;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 600;
     color: white;
     transition-duration: 0.25s;
@@ -216,11 +216,11 @@ header {
 }
 
 .navigate-button-carousel {
-    width: 5vw;
-    height: 5vw;
+    width: 7vw;
+    height: 7vw;
     border: none;
     border-radius: 50%;
-    font-size: 18px;
+    font-size: 15px;
     color: white;
     background-color: transparent;
     transition-duration: 0.5s;
