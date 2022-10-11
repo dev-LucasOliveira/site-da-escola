@@ -179,13 +179,12 @@ header {
 .button-carousel {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 90vw;
 }
 
 .know-more {
     width: 45vw;
+    height: 8vh;
     border-radius: 30px;
     border: none;
     background: linear-gradient(to right, #a38f08, #b19a08, #c9af0b, #e4c70c);
