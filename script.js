@@ -13,7 +13,7 @@ let carouselTxtArray = [
     'Entendemos que o mundo é outro e a tecnologia faz parte da vida das nossas crianças.',
     'Valorizamos o processo de curiosidade e criatividade.',
     'O aluno Olariense aprende a expressar seus pensamentos em um ambiente seguro.',
-    'A Escola Olaria preparando o seu filho para o mundo'
+    'A Escola Olaria preparando o seu filho para o mundo!'
 ];
 
 const imgCarousel = document.getElementById('img-carousel');
@@ -48,48 +48,3 @@ function changeCarousel(btnNumber) {
     }
 
 };
-
-
-
-const modal = document.getElementById('modal');
-
-let showModal = false;
-
-function toggleModal() {
-
-    showModal = !showModal;
-
-    if (showModal === true) {
-
-        modal.style.display = 'flex';
-        
-    }else {
-    
-        modal.style.display = 'none';
-    
-    };
-
-}
-
-
-const page = document.getElementById('page');
-
-function  goTo(btnNumber) {
-
-    if (btnNumber === 1) {
-        window.scrollTo({
-            top: 580,
-            left: 0,
-            behavior: 'smooth'
-        });
-    }
-
-    if (btnNumber === 2) {
-        window.scrollTo({
-            top: 2125,
-            left: 0,
-            behavior: 'smooth'
-        });
-    }
-    
-}

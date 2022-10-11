@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="tablet.css">
+    <link rel="stylesheet" href="desktop.css">
     <title>Document</title>
 </head>
 <body>
@@ -14,7 +16,7 @@
         <header>
 
             <div class="logo-div">
-                <img class="logo" src="https://i.im.ge/2022/10/05/1kKr2p.301722150-580000237160344-7998965667007516519-n-jpg-nc-cat111ccb1-7-nc-sid09cbfe-nc-ohcosDIGK5JsJgAX9fibMEtnikTKAPOqVqyhRI2U-nc-htscontent-fgig4-1.jpg" alt="">
+                <img class="logo" onclick="window.scrollTo(0,0)" src="https://i.im.ge/2022/10/05/1kKr2p.301722150-580000237160344-7998965667007516519-n-jpg-nc-cat111ccb1-7-nc-sid09cbfe-nc-ohcosDIGK5JsJgAX9fibMEtnikTKAPOqVqyhRI2U-nc-htscontent-fgig4-1.jpg" alt="">
             </div>
 
             <div class="menu-icon-div">
@@ -23,26 +25,26 @@
 
             <div class="menu-content">
 
-                <div class="section-one section-header">
-                    Por que Escola Olaria?
-                </div>
+                <a href="#section1" class="section-one section-header">
+                    Níveis de ensino
+                </a>
     
-                <div class="section-two section-header">
-                    Metodologia Olariense
-                </div>
+                <a href="#section2" class="section-two section-header">
+                    Excelência acadêmica
+                </a>
     
-                <div class="section-three section-header">
-                    Ensino
-                </div>
+                <a href="#section3" class="section-three section-header">
+                    Depoimentos
+                </a>
     
-                <div class="section-four section-header">
-                    Escolas
-                </div>
+                <a href="#section4" class="section-four section-header">
+                    Endereço
+                </a>
     
                 <div class="visit">
-                    <button class="visit-button">
+                    <a href="https://wa.link/ve1hwk" class="visit-button">
                         Agende uma visita
-                    </button>
+                    </a>
                 </div>
 
             </div>
@@ -51,26 +53,26 @@
 
         <div id="modal" class="menu-modal">
 
-            <div class="section-one section-modal">
-                Por que Escola Olaria?
-            </div>
+            <a href="#section1" class="section-one section-modal">
+                Níveis de ensino
+            </a>
 
-            <div class="section-two section-modal">
-                Metodologia Olariense
-            </div>
+            <a href="#section2" class="section-two section-modal">
+                Excelência acadêmica
+            </a>
 
-            <div class="section-three section-modal">
-                Ensino
-            </div>
+            <a href="#section3" class="section-three section-modal">
+                Depoimentos
+            </a>
 
-            <div class="section-four section-modal">
-                Escolas
-            </div>
+            <a href="#section4" class="section-four section-modal">
+                Endereço
+            </a>
 
             <div class="visit-modal">
-                <button class="visit-button-modal">
+                <a href="https://wa.link/ve1hwk" class="visit-button-modal">
                     Agende uma visita
-                </button>
+                </a>
             </div>
 
         </div>
@@ -85,9 +87,7 @@
                 
                 <div class="button-carousel">
                     
-                    <button class="know-more" onclick="goTo(1)">Saiba mais</button>
-
-                    <button class="know-school" onclick="goTo(2)">Conheça a Escola Olaria</button>
+                    <a class="know-more" href="https://wa.link/ve1hwk">Saiba mais</a>
                     
                 </div>
 
@@ -103,17 +103,19 @@
 
         </div>
 
-        <div class="section">
+        <div id="section1" class="section">
 
-            <div id="card-teaching-level-carousel" class="card-teaching-level-carousel">
-
-              
-                
+            <div class="title-section-div">
+            
+                <p class="title-section">Níveis de ensino:</p>
+            
             </div>
+
+            <div id="card-teaching-level-carousel" class="card-teaching-level-carousel"></div>
 
         </div>
 
-        <div class="section">
+        <div id="section2" class="section">
 
             <div class="title-section-div">
 
@@ -123,19 +125,29 @@
 
             </div>
 
-            <div class="section-card-content-div">
+            <div id="card-value-div" class="card-value-div"></div>
 
-                <div class="section-card-content">
+        </div>
 
-                    <div class="section-card-content-img-div">
-                        
-                        <img src="https://i.im.ge/2022/10/04/1kPwOq.crianca-no-computador.jpg" alt="" class="section-card-content-img">
+        <div id="section3" class="section">
 
-                    </div>
+            <div class="depoiments-div">
 
-                    <p class="section-card-content-title">PENSAMENTO CRÍTICO</p>
+                <div class="depoiments-card">
+
+                    <p id="depoiments-card-name" class="depoiments-card-name">Vitória</p>
                     
-                    <p class="section-card-content-text">As novas tecnologias têm provocado automação de vários processos, e apenas nós podemos pensar sobre quais são as melhores soluções. Na Escola Olariense utilizamos o aprendizado investigativo estimulando a autonomia crítica.</p>
+                    <p id="depoiments-card-title" class="depoiments-card-title">(Mãe do Tiago - 1° ano do Ensino fundamental)</p>
+
+                    <p id="depoiments-card-description" class="depoiments-card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+                </div>
+                
+                <div class="button-bottom-carousel">
+
+                    <button class="navigate-button-carousel" onclick="changeDepoiments(1)"> < </button>
+
+                    <button class="navigate-button-carousel" onclick="changeDepoiments(2)"> > </button>
 
                 </div>
 
@@ -143,17 +155,17 @@
 
         </div>
 
-        <div class="section">
+        <div id="section4" class="section">
 
             <div class="adress-div">
 
                 <div class="adress-intern-div">
 
-                    <p class="title-adress-intern-div">Nosso endereço:</p>
-
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4372.504732678618!2d-43.26952101739696!3d-22.846016581435062!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xddefc2961c2af8a9!2sJardim%20Escola%20Papai%20do%20C%C3%A9u!5e0!3m2!1sen!2sbr!4v1664935750327!5m2!1sen!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p class="title-adress-intern-div">Nos encontre em:</p>
 
                     <p class="adress">R. Teotônio de Brito, 361 - Olaria, Rio de Janeiro - RJ, 21070-680</p>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4372.504732678618!2d-43.26952101739696!3d-22.846016581435062!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xddefc2961c2af8a9!2sJardim%20Escola%20Papai%20do%20C%C3%A9u!5e0!3m2!1sen!2sbr!4v1664935750327!5m2!1sen!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                 </div>
 
@@ -161,10 +173,37 @@
 
         </div>
 
+        <footer>
+
+            <div class="content-footer-div">
+
+                <a href="#section1" class="content-footer">Níveis de ensino</a>
+
+                <a href="#section2" class="content-footer">Excelência acadêmica</a>
+                
+                <a href="#section3" class="content-footer">Depoimentos</a>
+                
+                <a href="#section4" class="content-footer">Endereço</a>
+
+                <a class="content-footer button-footer" href="https://wa.link/ve1hwk">Agende uma visita</a>
+
+            </div>
+
+            <div class="copyright-div">
+
+                <p class="copyright">© COPYRIGHT 2022 - PEDRO TECH S.A. <br>TODOS OS DIREITOS RESERVADOS.</p>
+
+            </div>
+
+        </footer>
+
     </div>
 
     <script src="script.js"></script>
-    <script src="cards-carousel-teaching-level.js"></script>
+    <script src="cards-academic-level.js"></script>
+    <script src="toggle-modal.js"></script>
+    <script src="cards-values.js"></script>
+    <script src="depoiments.js"></script>
 
 </body>
 </html>

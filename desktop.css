@@ -1,0 +1,286 @@
+@media only screen and (min-width: 1024px) {
+
+    header {
+        height: 12vh;
+        padding: 0vh 5vw;
+    }
+
+    .menu-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0 2vw;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    .logo {
+        height: 80%;
+    }
+
+    .logo:hover {
+        cursor: pointer;
+        opacity: 0.9;
+        transition-duration: 0.25s;
+    }
+
+    .section-header {
+        width: 12vw;
+        height: 12vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
+        border: none;
+        color: #504444;
+        line-height: 20px;
+        border-bottom: 4px solid transparent;
+        transition-duration: 0.25s;
+    }
+
+    .section-header:hover {
+        border-bottom: 4px solid #092f64;
+        color: #051831;
+        transition-duration: 0.25s;
+        cursor: pointer;
+    }
+
+    .visit {
+        width: 20vw;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .visit-button {
+        width: 18vw;
+        height: 7vh;
+        border: none;
+        border-radius: 30px;
+        text-align: center;
+        background: linear-gradient(to right, #051831, #082349, #092f64, #0D428C);
+        font-size: 15px;
+        font-weight: 600;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        transition-duration: 0.5s;
+    }
+
+    .visit-button:hover {
+        background: #dde0e4;
+        border: 1px solid #051831;
+        color: #051831;
+        cursor: pointer;
+        transition-duration: 0.5s;
+    }
+
+    .carousel {
+        margin-top: 12vh;
+    }
+
+    .img-carousel {
+        width: 100%;
+    }
+
+    .carousel-continent {
+        height: 87vh;
+        gap: 5vh 0;
+    }
+
+    .text-carousel {
+        font-size: 50px;
+        text-align: start;
+        align-items: flex-start;
+        width: 80vw;
+        height: 40vh;
+    }
+
+    .button-carousel {
+        position: absolute;
+        align-items: flex-start;
+        width: 80vw;
+        bottom: 25%;
+        height: 10vh;
+    }
+
+    .know-more {
+        width: 20vw;
+        height: 8vh;
+        font-size: 17px;
+    }
+
+    .know-more:hover {
+        background: #cec9ad;
+        border: 1px solid #a38f08;
+        color: #b19a08;
+        cursor: pointer;
+        transition-duration: 0.5s;
+    }
+
+    .navigate-button-carousel {
+        font-size: 20px;
+        width: 3vw;
+        height: 3vw;
+    }
+
+    .navigate-button-carousel:hover {
+        color: #e7e7e781;
+        cursor: pointer;
+        transition-duration: 0.5s;
+    }
+
+    .section {
+        padding-top: 18vh;
+    }
+
+    .card-teaching-level-carousel {
+        flex-direction: row;
+        gap: 0 7vw;
+    }
+
+    .card-teaching-level {
+        width: 23vw;
+        gap: 2vh 0;
+        padding: 2vh 0 5vh 0;
+        border-bottom: 3px solid #051831;
+    }
+
+    .card-teaching-level-img-div {
+        width: 19vw;
+    }
+
+    .card-teaching-level-title-div {
+        width: 20vw;
+    }
+
+    .card-teaching-level-title {
+        width: 20vw;
+        text-align: center;
+    }
+
+    .title-section-div {
+        gap: 2vh 0;
+    }
+
+    .title-section {
+        width: 80vw;
+        font-size: 50px;   
+    }
+
+    .text-section {
+        width: 80vw;
+        height: 10vh;
+        font-size: 20px; 
+        margin-bottom: 0; 
+    }
+
+    .card-value-div {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 8vh 4vw;
+    }
+    
+    .card-value-div-content {
+        overflow: visible;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-card-content-div {
+        width: 43vw;
+        height: 70vh;
+    }
+
+    .section-card-content {
+        width: 40vw;
+        height: 70vh;
+    }
+
+    .section-card-content-img-div {
+        height: 30vh;
+    }
+
+    .section-card-content-img {
+        width: 100%;
+    }
+
+    .section-card-content-title {
+        width: 40vw;
+        text-shadow: none;
+        font-size: 22px;
+    }
+
+    .section-card-content-text {
+        width: 35vw;
+        font-size: 15px;
+    }
+
+    .depoiments-card {
+        gap: 3vh 0;
+    }
+
+    .depoiments-card-name {
+        font-size: 45px;
+    }
+    
+    .depoiments-card-title {
+        font-size: 20px;
+    }
+    
+    .depoiments-card-description {
+        font-size: 20px;
+    }
+
+    .adress-div {
+        width: 100vw;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .adress-intern-div {
+        gap: 5vh 0;
+    }
+
+    iframe {
+        height: 50vh;
+    }
+
+    .title-adress-intern-div {
+        text-align: center;
+        justify-content: center;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .adress {
+        text-align: center;
+        justify-content: center;
+        font-size: 15px;
+    }
+
+    .content-footer-div {
+        align-items: flex-start;
+        width: 80vw;
+    }
+
+    .content-footer {
+        width: 20vw;
+        height: 10vh;
+        font-size: 15px;
+    }
+
+    .button-footer {
+        width: 50vw;
+        height: 7vh;
+    }
+
+}

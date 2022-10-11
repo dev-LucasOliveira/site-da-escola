@@ -1,0 +1,200 @@
+@media only screen and (min-width: 720px) {
+
+    .page {
+        gap: 5vh 0;
+    }
+
+    header {
+        height: 14vh;
+        padding: 0 8vw 0 10vw;
+    }
+
+    .menu-icon {
+        width: 5vw;
+    }
+
+    .menu-modal {
+        width: 50vw;
+        height: 86vh;
+        top: 14vh;
+    }
+
+    .section-modal {
+        font-size: 15px;
+        width: 50vw;
+    }
+
+    .logo {
+        height: 80%;
+        transition-duration: 0.25s;
+    }
+
+    .carousel {
+        margin-top: 14vh;
+    }
+
+    .img-carousel {
+        height: 150%;
+    }
+
+    .carousel-continent {
+        height: 87vh;
+        gap: 15vh 0;
+    }
+
+    .text-carousel {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .button-carousel {
+        align-items: center;
+    }
+
+    .know-more {
+        width: 50vw;
+        height: 10vh;
+        font-size: 17px;
+    }
+
+    .navigate-button-carousel {
+        font-size: 20px;
+    }
+
+    .section {
+        padding-top: 20vh;
+    }
+
+    .card-teaching-level-carousel {
+        flex-direction: row;
+        gap: 0 7vw;
+    }
+
+    .card-teaching-level {
+        width: 25vw;
+        gap: 2vh 0;
+        padding: 2vh 0 5vh 0;
+        border-bottom: 3px solid #051831;
+    }
+
+    .card-teaching-level-img-div {
+        width: 25vw;
+    }
+
+    .card-teaching-level-title-div {
+        width: 25vw;
+    }
+
+    .card-teaching-level-title {
+        width: 25vw;
+        text-align: center;
+    }
+
+    .title-section-div {
+        gap: 2vh 0;
+    }
+
+    .title-section {
+        width: 80vw;
+        font-size: 40px;   
+    }
+
+    .text-section {
+        width: 80vw;
+        height: 10vh;
+        margin-bottom: 5vh;
+        font-size: 15px;   
+    }
+
+    .card-value-div {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 8vh 4vw;
+    }
+    
+    .card-value-div-content {
+        overflow: visible;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-card-content-div {
+        width: 43vw;
+        height: 65vh;
+    }
+
+    .section-card-content {
+        width: 40vw;
+        height: 65vh;
+    }
+
+    .section-card-content-img-div {
+        height: 30vh;
+    }
+
+    .section-card-content-img {
+        width: 100%;
+    }
+
+    .section-card-content-title {
+        width: 40vw;
+        text-shadow: none;
+        font-size: 20px;
+    }
+
+    .section-card-content-text {
+        width: 35vw;
+        font-size: 12px;
+    }
+
+    .depoiments-card-name {
+        font-size: 35px;
+    }
+    
+    .depoiments-card-title {
+        font-size: 15px;
+    }
+    
+    .depoiments-card-description {
+        font-size: 16px;
+    }
+
+    .adress-div {
+        width: 100vw;
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .adress-intern-div {
+        gap: 5vh 0;
+    }
+
+    iframe {
+        height: 50vh;
+    }
+
+    .title-adress-intern-div {
+        text-align: center;
+        justify-content: center;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .adress {
+        text-align: center;
+        justify-content: center;
+        font-size: 15px;
+    }
+    
+    .button-footer {
+        align-self: center;
+        width: 60vh;
+        height: 7vh;
+        border-radius: 30px;
+        background: linear-gradient(to right, #051831, #082349, #092f64, #0D428C);
+    }
+}
